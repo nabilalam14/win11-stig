@@ -15,8 +15,8 @@ Welcome to my **Windows 11 STIG v3r2** remediation project! This repository docu
 
 ## Project Overview
 
-- **Purpose**: Demonstrate the practical process of scanning a Windows 10 Azure VM with Nessus, identifying STIG findings, remediating them with PowerShell or manual configuration, and verifying the result.
-- **Scope**: Focus on the DISA Windows 10 STIG v3r2 controls.
+- **Purpose**: Demonstrate the practical process of scanning a Windows 1! Azure VM with Tenable, identifying STIG findings, remediating them with PowerShell or manual configuration, and verifying the result.
+- **Scope**: Focus on the DISA Windows 11 STIG v3r2 controls.
 
 ## High-Priority STIG Controls
 
@@ -40,7 +40,7 @@ Below is the general workflow I use:
 
 ```mermaid
     flowchart LR
-    A((Initial Nessus Scan)) --> B{Identify STIG Failures}
+    A((Initial Tenable Scan)) --> B{Identify STIG Failures}
     B --> C["Remediate with PowerShell Scripts (Automation)"]
     B --> D["Manual Remediation <br>(If Needed)"]
     C --> E((Re-scan / Verify))
